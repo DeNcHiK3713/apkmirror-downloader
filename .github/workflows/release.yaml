@@ -54,6 +54,3 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: latest
-
-      - name: Publish
-        run: npm publish --access public --provenance
